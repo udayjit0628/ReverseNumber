@@ -1,14 +1,11 @@
-// Java program to reverse a number
-
 import java.io.*;
 
 class ReverseNumber {
 	
-	// Function to reverse the number
 	static int reverse(int n){
 	
-	int rev = 0; // reversed number
-	int rem; // remainder
+	int rev = 0; 
+	int rem; 
 	
 	while(n>0){
 		
@@ -20,7 +17,6 @@ class ReverseNumber {
 	return rev;
 	}
 	
-// Driver Function
 	public static void main (String[] args) {
 		int n = 987654321;
 		
